@@ -18,6 +18,8 @@
             console.log(ele.textContent);
         }).each(function(item){
             console.log(item.textContent);
+        }).hide().show().each(function(item,ind){
+            item.textContent = "string"+ind
         })
     </script>
 </body>
