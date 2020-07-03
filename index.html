@@ -5,9 +5,20 @@
 </head>
 
 <body>
+    <div>First</div>
+    <div>Second</div>
+    <div>Third</div>
+    <div>Fourth</div>
+
     <script type="module">
         import $ from "./index.js";
-
+        //value index array
+        $("div").each(function(ele){
+            console.log(ele);
+            console.log(ele.textContent);
+        }).each(function(item){
+            console.log(item.textContent);
+        })
     </script>
 </body>
 
